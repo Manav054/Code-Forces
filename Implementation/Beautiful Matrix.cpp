@@ -8,6 +8,7 @@ int main() {
             cin >> x;
             if (x == 1) {
                 cout << abs(i - 3) + abs(j -3) << endl;
+                break;
             }
         }
     }
